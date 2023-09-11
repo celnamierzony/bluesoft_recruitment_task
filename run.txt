@@ -1,0 +1,13 @@
+Aby skompilować program należy wykonać komendę:
+
+    go build main.go
+
+Uruchomienie programu z przykładowymi parametrami:
+
+    Dla systemu operacujnego Linux:
+        ./main -x 5 -y 10
+        
+    Dla systemu operacyjnego Windows:
+        ./main.exe -x 5 -y 10
+
+W przypadku niepodania któregoś z parametrów zostaną użyte wartości domyślne, czyli dla parametru x to jest 5, a dla parametru y to jest 10.
